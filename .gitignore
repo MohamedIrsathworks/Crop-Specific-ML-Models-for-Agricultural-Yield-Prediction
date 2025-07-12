@@ -1,0 +1,14 @@
+# Ignore virtual environment
+venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# OS / Editor files
+.DS_Store
+*.swp
+
+# Ignore notebook metadata
+.ipynb_checkpoints/

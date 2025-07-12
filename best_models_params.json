@@ -1,0 +1,710 @@
+{
+    "Arecanut": {
+        "model": "CatBoost",
+        "params": {
+            "depth": 9,
+            "iterations": 473,
+            "learning_rate": 0.04108536394132455
+        },
+        "metrics": {
+            "R\u00b2": 0.7662696700815499,
+            "MSE": 1.3084136625602127,
+            "RMSE": 1.1438591095760933,
+            "MAE": 0.5743895302021532
+        }
+    },
+    "Arhar/Tur": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.015925169151603524,
+            "hidden_layer_sizes": 191,
+            "learning_rate_init": 0.01719711068521648
+        },
+        "metrics": {
+            "R\u00b2": 0.8437493007394369,
+            "MSE": 0.016006594428229614,
+            "RMSE": 0.1265171704877627,
+            "MAE": 0.09007628610619373
+        }
+    },
+    "Castor seed": {
+        "model": "Gradient Boosting",
+        "params": {
+            "learning_rate": 0.1915408173988864,
+            "n_estimators": 365
+        },
+        "metrics": {
+            "R\u00b2": 0.8990392164148084,
+            "MSE": 0.020483743394180683,
+            "RMSE": 0.14312142884341494,
+            "MAE": 0.1008177729145155
+        }
+    },
+    "Coconut": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.1,
+            "hidden_layer_sizes": 200,
+            "learning_rate_init": 0.1
+        },
+        "metrics": {
+            "R\u00b2": 0.8436171567665062,
+            "MSE": 1884503.5208397112,
+            "RMSE": 1372.7722028216158,
+            "MAE": 1002.183824557953
+        }
+    },
+    "Cotton(lint)": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.1,
+            "hidden_layer_sizes": 166,
+            "learning_rate_init": 0.001
+        },
+        "metrics": {
+            "R\u00b2": 0.738665864624719,
+            "MSE": 0.2908496527926702,
+            "RMSE": 0.539304786547153,
+            "MAE": 0.3658163021710824
+        }
+    },
+    "Dry chillies": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.027364528220782454,
+            "hidden_layer_sizes": 76,
+            "learning_rate_init": 0.06020666067370068
+        },
+        "metrics": {
+            "R\u00b2": 0.5273952912953519,
+            "MSE": 2.6224438556480982,
+            "RMSE": 1.6193961391976017,
+            "MAE": 0.8858362320862686
+        }
+    },
+    "Gram": {
+        "model": "SVM",
+        "params": {
+            "C": 3.031524915319165,
+            "epsilon": 0.08508508174631915,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.5819179654544153,
+            "MSE": 0.040915910636728454,
+            "RMSE": 0.2022768168543505,
+            "MAE": 0.13931972424026576
+        }
+    },
+    "Jute": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.004864367582340843,
+            "hidden_layer_sizes": 50,
+            "learning_rate_init": 0.001
+        },
+        "metrics": {
+            "R\u00b2": 0.886474381276129,
+            "MSE": 2.726820687763176,
+            "RMSE": 1.6513087802598205,
+            "MAE": 1.1819391926450369
+        }
+    },
+    "Linseed": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.0021602177830877733,
+            "hidden_layer_sizes": 188,
+            "learning_rate_init": 0.011381056696717656
+        },
+        "metrics": {
+            "R\u00b2": 0.8520964342213622,
+            "MSE": 0.006556826221937087,
+            "RMSE": 0.08097423183912945,
+            "MAE": 0.05885284413059282
+        }
+    },
+    "Maize": {
+        "model": "CatBoost",
+        "params": {
+            "depth": 8,
+            "iterations": 463,
+            "learning_rate": 0.029923240125013684
+        },
+        "metrics": {
+            "R\u00b2": 0.5115769550524105,
+            "MSE": 1.7986340239418845,
+            "RMSE": 1.3411316206628954,
+            "MAE": 0.558282707510762
+        }
+    },
+    "Mesta": {
+        "model": "SVM",
+        "params": {
+            "C": 1000.0,
+            "epsilon": 0.1,
+            "kernel": "linear"
+        },
+        "metrics": {
+            "R\u00b2": 0.8777300624573177,
+            "MSE": 1.1957046054668323,
+            "RMSE": 1.0934827870007064,
+            "MAE": 0.6657903178207223
+        }
+    },
+    "Onion": {
+        "model": "SVM",
+        "params": {
+            "C": 38.88387080207161,
+            "epsilon": 0.1,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.8896311952658026,
+            "MSE": 7.141356663069081,
+            "RMSE": 2.6723316903163576,
+            "MAE": 1.9210536950466168
+        }
+    },
+    "Other  Rabi pulses": {
+        "model": "Gradient Boosting",
+        "params": {
+            "learning_rate": 0.19007778316374024,
+            "n_estimators": 145
+        },
+        "metrics": {
+            "R\u00b2": 0.8060979675017834,
+            "MSE": 0.043718777525276316,
+            "RMSE": 0.20909035732256118,
+            "MAE": 0.14319563469544358
+        }
+    },
+    "Potato": {
+        "model": "SVM",
+        "params": {
+            "C": 46.99719722303751,
+            "epsilon": 0.01,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.8526434118288415,
+            "MSE": 5.653125530998349,
+            "RMSE": 2.3776302342875666,
+            "MAE": 1.6465956472125658
+        }
+    },
+    "Rapeseed &Mustard": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.004267850550142993,
+            "hidden_layer_sizes": 188,
+            "learning_rate_init": 0.05015020365607496
+        },
+        "metrics": {
+            "R\u00b2": 0.915447496061165,
+            "MSE": 0.023975935162621934,
+            "RMSE": 0.15484164544017845,
+            "MAE": 0.10658394614241737
+        }
+    },
+    "Rice": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.08060776211584167,
+            "hidden_layer_sizes": 51,
+            "learning_rate_init": 0.02177873404701647
+        },
+        "metrics": {
+            "R\u00b2": 0.8851875214513366,
+            "MSE": 0.062351985113776966,
+            "RMSE": 0.24970379475245658,
+            "MAE": 0.18500412294493176
+        }
+    },
+    "Small millets": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.015925169151603524,
+            "hidden_layer_sizes": 191,
+            "learning_rate_init": 0.01719711068521648
+        },
+        "metrics": {
+            "R\u00b2": 0.7954910743040965,
+            "MSE": 0.01895101717761877,
+            "RMSE": 0.13766269348526772,
+            "MAE": 0.09053700397384011
+        }
+    },
+    "Sweet potato": {
+        "model": "CatBoost",
+        "params": {
+            "depth": 8,
+            "iterations": 464,
+            "learning_rate": 0.10432867368337617
+        },
+        "metrics": {
+            "R\u00b2": 0.7168639135008734,
+            "MSE": 7.13588868351743,
+            "RMSE": 2.671308421638623,
+            "MAE": 1.8128417898267641
+        }
+    },
+    "Tapioca": {
+        "model": "Random Forest",
+        "params": {
+            "max_depth": 48,
+            "min_samples_split": 8,
+            "n_estimators": 442
+        },
+        "metrics": {
+            "R\u00b2": 0.946881444123221,
+            "MSE": 6.8499750908488135,
+            "RMSE": 2.617245707007428,
+            "MAE": 1.8902885614051321
+        }
+    },
+    "Tobacco": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.0001418349126966657,
+            "hidden_layer_sizes": 95,
+            "learning_rate_init": 0.001
+        },
+        "metrics": {
+            "R\u00b2": 0.8546640034832885,
+            "MSE": 0.42558587794701075,
+            "RMSE": 0.6523694336394147,
+            "MAE": 0.41513699527760084
+        }
+    },
+    "Turmeric": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.0009983376401900513,
+            "hidden_layer_sizes": 191,
+            "learning_rate_init": 0.001
+        },
+        "metrics": {
+            "R\u00b2": 0.6346180053764578,
+            "MSE": 4.220421563138489,
+            "RMSE": 2.0543664627175184,
+            "MAE": 0.9945525639519937
+        }
+    },
+    "Wheat": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.1,
+            "hidden_layer_sizes": 200,
+            "learning_rate_init": 0.0035244503795121493
+        },
+        "metrics": {
+            "R\u00b2": 0.9473453397917816,
+            "MSE": 0.06268723611395893,
+            "RMSE": 0.25037419218833024,
+            "MAE": 0.18232337865593107
+        }
+    },
+    "Bajra": {
+        "model": "XGBoost",
+        "params": {
+            "learning_rate": 0.16435523778789904,
+            "n_estimators": 127
+        },
+        "metrics": {
+            "R\u00b2": 0.9617077595023625,
+            "MSE": 1.437594229268427,
+            "RMSE": 1.1989971765056109,
+            "MAE": 0.3530951982100873
+        }
+    },
+    "Other_Crops": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.0006822737692872273,
+            "hidden_layer_sizes": 186,
+            "learning_rate_init": 0.001
+        },
+        "metrics": {
+            "R\u00b2": 0.7958583498936074,
+            "MSE": 0.1519816575193181,
+            "RMSE": 0.3898482493475097,
+            "MAE": 0.1877034736466136
+        }
+    },
+    "Coriander": {
+        "model": "SVM",
+        "params": {
+            "C": 2.8898193547915194,
+            "epsilon": 0.01,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.8157560503415988,
+            "MSE": 0.09009023306682248,
+            "RMSE": 0.3001503507691145,
+            "MAE": 0.1670937336885679
+        }
+    },
+    "Garlic": {
+        "model": "SVM",
+        "params": {
+            "C": 49.40026499697123,
+            "epsilon": 0.01,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.8440134023598023,
+            "MSE": 2.1939616117296254,
+            "RMSE": 1.4812027584802918,
+            "MAE": 0.8447174052588483
+        }
+    },
+    "Ginger": {
+        "model": "Random Forest",
+        "params": {
+            "max_depth": 41,
+            "min_samples_split": 6,
+            "n_estimators": 287
+        },
+        "metrics": {
+            "R\u00b2": 0.7000379122763538,
+            "MSE": 13.452822221582062,
+            "RMSE": 3.6678089129045506,
+            "MAE": 2.0382407244798793
+        }
+    },
+    "Groundnut": {
+        "model": "SVM",
+        "params": {
+            "C": 2.803857609532895,
+            "epsilon": 0.1,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.8347880321328693,
+            "MSE": 0.06714215517178929,
+            "RMSE": 0.2591180332817253,
+            "MAE": 0.18399067377814068
+        }
+    },
+    "Horse-gram": {
+        "model": "SVM",
+        "params": {
+            "C": 8.336538052014143,
+            "epsilon": 0.01,
+            "kernel": "linear"
+        },
+        "metrics": {
+            "R\u00b2": 0.7079577580032204,
+            "MSE": 0.013529205865868624,
+            "RMSE": 0.11631511452029192,
+            "MAE": 0.07803644663260953
+        }
+    },
+    "Jowar": {
+        "model": "SVM",
+        "params": {
+            "C": 1.8051304899718623,
+            "epsilon": 0.01,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.6200707850264892,
+            "MSE": 0.09534749177034893,
+            "RMSE": 0.3087838916950639,
+            "MAE": 0.17924229567328662
+        }
+    },
+    "Ragi": {
+        "model": "Gradient Boosting",
+        "params": {
+            "learning_rate": 0.16435523778789904,
+            "n_estimators": 127
+        },
+        "metrics": {
+            "R\u00b2": 0.8708000304922788,
+            "MSE": 0.058824178271870656,
+            "RMSE": 0.24253696269202074,
+            "MAE": 0.15912569565866505
+        }
+    },
+    "Sugarcane": {
+        "model": "Gradient Boosting",
+        "params": {
+            "learning_rate": 0.08791975218212963,
+            "n_estimators": 377
+        },
+        "metrics": {
+            "R\u00b2": 0.9110546912064337,
+            "MSE": 80.13392024315725,
+            "RMSE": 8.951755148749168,
+            "MAE": 6.353475553198234
+        }
+    },
+    "Black pepper": {
+        "model": "CatBoost",
+        "params": {
+            "depth": 8,
+            "iterations": 377,
+            "learning_rate": 0.18724491978108845
+        },
+        "metrics": {
+            "R\u00b2": 0.8429527400745473,
+            "MSE": 0.11142639008207597,
+            "RMSE": 0.3338059167870995,
+            "MAE": 0.21338994959941288
+        }
+    },
+    "Cashewnut": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.00010253943538922507,
+            "hidden_layer_sizes": 173,
+            "learning_rate_init": 0.0743869916924347
+        },
+        "metrics": {
+            "R\u00b2": 0.7431519835737902,
+            "MSE": 0.034146834019972885,
+            "RMSE": 0.1847886198335084,
+            "MAE": 0.12973220858523785
+        }
+    },
+    "Banana": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.02912727800388862,
+            "hidden_layer_sizes": 50,
+            "learning_rate_init": 0.0029465886340713666
+        },
+        "metrics": {
+            "R\u00b2": 0.9369980972130836,
+            "MSE": 21.16030068039326,
+            "RMSE": 4.600032682535338,
+            "MAE": 3.1897632504259934
+        }
+    },
+    "Sesamum": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.015925169151603524,
+            "hidden_layer_sizes": 191,
+            "learning_rate_init": 0.01719711068521648
+        },
+        "metrics": {
+            "R\u00b2": 0.8263482860454855,
+            "MSE": 0.007930116638877495,
+            "RMSE": 0.08905120234380609,
+            "MAE": 0.06439176268556847
+        }
+    },
+    "Soyabean": {
+        "model": "SVM",
+        "params": {
+            "C": 1.0814736021464124,
+            "epsilon": 0.01,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.5971431057944869,
+            "MSE": 0.05516746687004318,
+            "RMSE": 0.23487755718680994,
+            "MAE": 0.17219219517988898
+        }
+    },
+    "Masoor": {
+        "model": "CatBoost",
+        "params": {
+            "depth": 8,
+            "iterations": 463,
+            "learning_rate": 0.029923240125013684
+        },
+        "metrics": {
+            "R\u00b2": 0.580639077502397,
+            "MSE": 0.02002921079412684,
+            "RMSE": 0.14152459430829273,
+            "MAE": 0.10129717677299656
+        }
+    },
+    "Moong(Green Gram)": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.1,
+            "hidden_layer_sizes": 87,
+            "learning_rate_init": 0.033654434705429975
+        },
+        "metrics": {
+            "R\u00b2": 0.7373153876430862,
+            "MSE": 0.015882326278060098,
+            "RMSE": 0.12602510177762244,
+            "MAE": 0.08995563608527486
+        }
+    },
+    "Other Kharif pulses": {
+        "model": "Random Forest",
+        "params": {
+            "max_depth": 46,
+            "min_samples_split": 2,
+            "n_estimators": 500
+        },
+        "metrics": {
+            "R\u00b2": 0.7136953823160874,
+            "MSE": 0.02917444009466642,
+            "RMSE": 0.17080526951668212,
+            "MAE": 0.1251604788696909
+        }
+    },
+    "Sannhamp": {
+        "model": "Random Forest",
+        "params": {
+            "max_depth": 50,
+            "min_samples_split": 2,
+            "n_estimators": 85
+        },
+        "metrics": {
+            "R\u00b2": 0.9746700208859613,
+            "MSE": 0.06505314470321281,
+            "RMSE": 0.2550551797223746,
+            "MAE": 0.15147238220099274
+        }
+    },
+    "Urad": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.1,
+            "hidden_layer_sizes": 200,
+            "learning_rate_init": 0.001
+        },
+        "metrics": {
+            "R\u00b2": 0.7608859575101834,
+            "MSE": 0.013732574479071084,
+            "RMSE": 0.1171860677686178,
+            "MAE": 0.08108248379341715
+        }
+    },
+    "Niger seed": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.015925169151603524,
+            "hidden_layer_sizes": 191,
+            "learning_rate_init": 0.01719711068521648
+        },
+        "metrics": {
+            "R\u00b2": 0.9483295493398564,
+            "MSE": 0.002828395247897618,
+            "RMSE": 0.05318265927816714,
+            "MAE": 0.03915098025678817
+        }
+    },
+    "Peas & beans (Pulses)": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.00017545163886487495,
+            "hidden_layer_sizes": 170,
+            "learning_rate_init": 0.06891402032006977
+        },
+        "metrics": {
+            "R\u00b2": 0.9176682539670079,
+            "MSE": 0.25361858729663744,
+            "RMSE": 0.5036055870387435,
+            "MAE": 0.26020605060930374
+        }
+    },
+    "Safflower": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.03252108800594495,
+            "hidden_layer_sizes": 182,
+            "learning_rate_init": 0.031037600878533328
+        },
+        "metrics": {
+            "R\u00b2": 0.6802862721338393,
+            "MSE": 0.015181776905743965,
+            "RMSE": 0.12321435348912871,
+            "MAE": 0.09064788266419375
+        }
+    },
+    "Sunflower": {
+        "model": "SVM",
+        "params": {
+            "C": 2.289381965808539,
+            "epsilon": 0.06857214484401153,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.7402911063564057,
+            "MSE": 0.054132350170161166,
+            "RMSE": 0.23266359872176215,
+            "MAE": 0.16113559285631202
+        }
+    },
+    "Barley": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.03252108800594495,
+            "hidden_layer_sizes": 182,
+            "learning_rate_init": 0.031037600878533328
+        },
+        "metrics": {
+            "R\u00b2": 0.9100209758027689,
+            "MSE": 0.07711120472929996,
+            "RMSE": 0.2776890432287525,
+            "MAE": 0.17847750289864042
+        }
+    },
+    "other oilseeds": {
+        "model": "SVM",
+        "params": {
+            "C": 323.4467957366544,
+            "epsilon": 0.01,
+            "kernel": "rbf"
+        },
+        "metrics": {
+            "R\u00b2": 0.918564648668309,
+            "MSE": 1.7014859253306331,
+            "RMSE": 1.3044101829296768,
+            "MAE": 0.7589756668718963
+        }
+    },
+    "Other Cereals": {
+        "model": "XGBoost",
+        "params": {
+            "learning_rate": 0.01,
+            "n_estimators": 186
+        },
+        "metrics": {
+            "R\u00b2": 0.340508158355207,
+            "MSE": 0.06899270106795605,
+            "RMSE": 0.26266461708413646,
+            "MAE": 0.1713630676388267
+        }
+    },
+    "Cowpea(Lobia)": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.03252108800594495,
+            "hidden_layer_sizes": 182,
+            "learning_rate_init": 0.031037600878533328
+        },
+        "metrics": {
+            "R\u00b2": 0.8254528585033751,
+            "MSE": 0.037136119520940744,
+            "RMSE": 0.19270734163736664,
+            "MAE": 0.1432983263333602
+        }
+    },
+    "Moth": {
+        "model": "MLP",
+        "params": {
+            "alpha": 0.015925169151603524,
+            "hidden_layer_sizes": 191,
+            "learning_rate_init": 0.01719711068521648
+        },
+        "metrics": {
+            "R\u00b2": 0.7243508338010582,
+            "MSE": 0.017296545790779272,
+            "RMSE": 0.13151633279094757,
+            "MAE": 0.09720378652509715
+        }
+    }
+}
